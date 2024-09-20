@@ -1,0 +1,140 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.main {
+    background-image: url(assests/img/bg.jpg);
+    height: 70vh;
+    position: relative background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw)
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.56;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+span img {
+    width: 80px;
+}
+
+nav {
+    max-width: 70vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    height: 64px;
+    
+
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 67px);
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.hero> :first-child {
+    font-weight: 800;
+    font-size: 44px;
+    font-family: Poppins;
+    text-align: center;
+}
+
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 23px;
+    font-family: Poppins;
+    text-align: center;
+}
+
+
+.hero> :nth-child(3){
+    font-weight: 300;
+    font-size: 20px;
+    font-family: Poppins;
+    text-align: center
+    
+}
+
+body {
+    background-color: black;
+    cursor: default;
+}
+
+.separation {
+    height: 6px;
+    background-color: rgb(37, 36, 36);
+}
+
+.btnsm {
+    color: white;
+    background-color: rgba(255, 0, 0, 0.331);
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-family: Poppins;
+    font-weight: 300;
+    cursor: pointer;
+}
+.btn{
+    color: white;
+    background-color: rgba(33,33,33,0.6);
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-family: Poppins;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.butt {
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    padding: 3px 6px;
+    font-family: Poppins;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+input {
+    padding: 3.2px;
+    border-radius: 7px;
+    background-color: rgba(33, 33, 33, 0.22); /* Keep background transparent */
+    font-family: Poppins;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255); /* Solid white text */
+    opacity: 1;
+    position:relative
+    z-index: index 9;
+}
